@@ -1,0 +1,97 @@
+Inline CSS : to put the CSS inside the HTML but not preferable 
+as it is difficult to manage
+
+<style>
+                                ==================> Internal CSS
+body {                          ==================> Element selector
+backgroud-color:rgb(38,113,225)
+}
+h1{
+color:goldenrod;
+}
+div{
+backgroung-color:cornflowerblue;
+border-style: solid
+border-color: black;
+border-radius: 5px:
+}
+
+.shadow-text{  ==================> class selector
+text-shadow: gray 1px 1px;   ===========> inside the element call it thru <p class="shadow-text">This is a styled para.</p>
+}
+
+#large-paragraph{   ==============>class ID
+font-size:30px;       ================> inside the element will call it <p id="large-paragraph">THis is 2nd Paragh.</p>
+}
+
+===============> inner CSS
+<body style="backgroud-color:rgb(38,113,235)">
+<h1 style="color:goldenrod">Styled Heading </h1>
+<div style="background-color:cornflowerblue; border-style:solid; border-color:black; border-radius: 5px;"
+<p style="text-shadow: gray 1px 1px">This is a styled paragraph.</P>
+</div>
+</body>
+
+to Link external style CSS page to multiple HTML
+
+<head>
+<link rel="stylesheet" href="styles.css">
+
+to float images right 
+img{
+float: right;
+}
+
+=============Hover===========
+.hov{
+height: 200px;
+width: 200px;
+background-color:blue;
+}
+
+.hov:hover{
+background-color: red;
+}
+
+============every even====
+.every-even li:nth-child(even){
+background-color: red;
+}
+
+.every-third li:nth-child(3n){
+backgroud-color=red;
+}
+
+to call it 
+<ul class="every-even">
+<li>item</li>
+
+==================Table Enhancement===========
+
+table{
+border-collapse: collapse;
+width: 100%
+}
+
+th,td {
+padding: 8px;
+text-align: left;
+border-bottom:1px solid balck;
+}
+tr:nth-child(even){
+background-color:rgb(185,185,185);
+}
+tr:hover {
+background-color:gray;
+}
+
+
+================BoxModel=======
+
+#box-modem {
+padding: 20px;
+border-style: solid;
+border-width: 3px;
+margin: 30px;
+background-color: blue;
+}

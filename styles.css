@@ -1,0 +1,86 @@
+body {
+    background-color:rgb(146, 163, 157);
+   }
+ h3{
+    font-style: italic;
+    color: black;
+    font-size: large;
+    text-align: center;
+ }
+
+ h7{
+     font-weight: bold;
+     font-style: italic;
+     font-size: larger;
+ }
+
+  h4{
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+    
+   .MainTitle{
+       text-align: center;
+       color: rgb(13, 174, 45);
+       text-shadow: 2rem;
+       font-size: 40px;
+   }
+
+   .hov{
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    }
+    
+    .hov:hover{
+    color: rgb(244, 17, 55);
+    }
+    .column {
+        flex: 30%;
+        padding: 5px;
+      }
+      .container {
+        display: flex;
+      }
+
+    #OfferTitle{
+        text-align:center;
+        font-size: 60px;
+        background-color:#FFFF00
+
+         
+    }
+    table, th, td {
+        border: 1px solid black;
+          padding: 4px;
+          text-align: center;
+          border-bottom:1px solid balck;
+          background-color:rgb(182, 185, 189);
+     
+      }
+      table{
+          width: 40%;
+      }
+     th {
+          background-color: rgb(186, 227, 159);
+     }
+    
+      input[type=text] {
+        padding:10px;
+        margin:10px 0;
+        border: none;
+        border-bottom: 2px solid red;
+      }
+      input[type=question] {
+        width: 30%;
+        height: 30%;
+        border-bottom: 2px solid red;
+      }
+        
+      
+      h7{
+          font-style:oblique;
+          font-weight: bold;
+          
+      }
